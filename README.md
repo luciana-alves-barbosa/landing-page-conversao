@@ -45,7 +45,7 @@ Criar uma interface profissional inspirada em páginas reais de produtos digitai
 
 ## 📸 Prévia
 
-![Preview do projeto](./Ativos/print.png)
+![Preview do projeto](./assets/print.png)
 
 ---
 
