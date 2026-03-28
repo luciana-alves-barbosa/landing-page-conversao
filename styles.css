@@ -1,3 +1,11 @@
+:root {
+  --bg: linear-gradient(180deg, #f8fafc 0%, #e2e8f0 100%);
+  --text-main: #1f2937;
+  --text-secondary: #4b5563;
+  --primary: #4f46e5;
+  --primary-dark: #4338ca;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,8 +14,10 @@
 }
 
 body {
-  background: hwb(0 99% 0%);
-  color: #333;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text-main);
+  line-height: 1.5;
 }
 
 .container {
@@ -77,9 +87,12 @@ justify-content: space-between;
   transition: 0.3s;
 }
 
-.btn:hover {
+.btn:hover,
+.btn:focus-visible {
   transform: scale(1.05);
-  background: #4338ca;
+  background: var(--primary-dark);
+  outline: 2px solid #fff;
+  outline-offset: 2px;
 }
 
 .section {

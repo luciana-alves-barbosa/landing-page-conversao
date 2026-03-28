@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Landing page para curso de tecnologia e conversão de leads, com design responsivo e foco em experiência do usuário.">
+  <meta name="theme-color" content="#1f2937">
   <title>Landing Page</title>
 
   <!-- Google Font -->
@@ -13,16 +15,17 @@
 </head>
 <body>
 
-<header class="container">
+<header class="container" role="banner">
   <h1 class="logo">Luka Web Studio</h1>
-  <nav>
+  <nav aria-label="Menu principal">
     <a href="#">Home</a>
-    <a href="#">Sobre</a>
-    <a href="#">Contato</a>
+    <a href="#beneficios">Sobre</a>
+    <a href="#contato">Contato</a>
   </nav>
 </header>
 
-<section class="hero container">
+<main>
+  <section class="hero container">
   <div class="hero-text">
     <h1>Transforme sua carreira com tecnologia</h1>
     <p>Aprenda habilidades digitais e conquiste novas oportunidades no mercado.</p>
@@ -34,7 +37,7 @@
   </div>
 </section>
 
-<section class="section container">
+<section id="beneficios" class="section container">
   <h2>Benefícios</h2>
   <div class="cards">
     <div class="card">Aprendizado rápido</div>
@@ -51,11 +54,13 @@
   </div>
 </section>
 
-<footer>
+</main>
+
+<footer id="contato">
   <p>© 2026 - Luciana Alves</p>
 </footer>
 
-<script src="js/script.js"></script>
+<script src="js/script.js" defer></script>
 
 </body>
 </html>
