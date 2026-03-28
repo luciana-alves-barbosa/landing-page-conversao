@@ -43,9 +43,9 @@ Criar uma interface profissional inspirada em páginas reais de produtos digitai
 
 ---
 
-## 📸 Preview
+## 📸 Prévia
 
-> *(assets/print.png)*
+![Preview do projeto](./ativos/print.png)
 
 ---
 
@@ -72,21 +72,21 @@ cd landing-page-conversao
 # Abra o arquivo
 index.html
 
+```
+
+## 💡 Aprendizados
+
+`-` Durante o desenvolvimento deste projeto, foram aplicados conceitos como:
+
+* Organização de arquivos (HTML, CSS e JS separados)
+* Uso de variáveis CSS para padronização visual
+* Estruturação de layout com Flexbox
+* Responsividade para diferentes dispositivos
+* Manipulação básica do DOM com JavaScript
+
 ---
 
-💡 Aprendizados
-
-Durante o desenvolvimento deste projeto, foram aplicados conceitos como:
-
-Organização de arquivos (HTML, CSS e JS separados)
-Uso de variáveis CSS para padronização visual
-Estruturação de layout com Flexbox
-Responsividade para diferentes dispositivos
-Manipulação básica do DOM com JavaScript
-
----
-
-👩‍💻 Autora
+## 👩‍💻 Autora
 
 Luciana Alves Barbosa
 
